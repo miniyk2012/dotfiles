@@ -1,0 +1,14 @@
+
+Host pycourses
+	HostName code.pycourses.com
+	PreferredAuthentications publickey
+	IdentityFile /Users/thomas_young/.ssh/id_rsa
+
+Host aliyun
+        Hostname 139.196.141.4
+        User thomas
+Host ubuntu
+    HostName localhost
+    Port 3022
+    IdentityFile ~/.ssh/id_rsa
+    User thomas_young
