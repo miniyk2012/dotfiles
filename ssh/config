@@ -12,3 +12,10 @@ Host ubuntu
     Port 3022
     IdentityFile ~/.ssh/id_rsa
     User thomas_young
+
+Host vmpy
+    HostName localhost
+    IdentityFile ~/.ssh/id_rsa
+    User thomas_young
+    Port 3022
+    LocalForward 9999 localhost:8888
