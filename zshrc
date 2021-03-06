@@ -85,7 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # shell vim mode
 # bindkey -v
-alias gl="git log --all --graph --decorate"
 M2_HOME=/usr/local/Cellar/maven/3.6.0
 export PATH=$PATH:$M2_HOME/bin
 export PATH=/usr/local/mysql/bin:/opt/local/bin:/Users/thomas_young/Documents/code/scala-2.12.3/bin:/Users/thomas_young/.local/bin:$PATH
